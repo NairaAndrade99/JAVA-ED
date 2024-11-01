@@ -1,18 +1,19 @@
-## Fazer um programa para ler um vetor de N números inteiros. Em seguida, mostrar na tela a média aritmética somente dos números pares lidos, com uma casa decimal. Se nenhum número par for digitado, mostrar a mensagem "NENHUM NUMERO PAR" 
+## Problema "**_media_pares_**"
+#### Fazer um programa para ler um vetor de N números inteiros. Em seguida, mostrar na tela a média aritmética somente dos números pares lidos, com uma casa decimal. Se nenhum número par for digitado, mostrar a mensagem "NENHUM NUMERO PAR" 
 ----
 #### Exemoplo 1
-Quantos elementos vai ter o vetor? 6
-Digite um numero: 8 
-Digite um numero: 2 
-Digite um numero: 11 
-Digite um numero: 14 
-Digite um numero: 13 
-Digite um numero: 20
-MEDIA DOS PARES = 11.0 
+#### Quantos elementos vai ter o vetor? **_6_**
+#### Digite um numero: **_8_** 
+#### Digite um numero: **_2_** 
+#### Digite um numero: **_11_** 
+#### Digite um numero: **_14_** 
+#### Digite um numero: **_13_** 
+#### Digite um numero: **_20_**
+#### MEDIA DOS PARES = **_11.0_** 
 -----
 #### Exemplo 2
-Quantos elementos vai ter o vetor? 3
-Digite um numero: 7 
-Digite um numero: 9 
-Digite um numero: 11 
-NENHUM NUMERO PAR 
+#### Quantos elementos vai ter o vetor? **_3_**
+#### Digite um numero: **_7_** 
+#### Digite um numero: **_9_** 
+#### Digite um numero: **_11_** 
+#### NENHUM NUMERO PAR 

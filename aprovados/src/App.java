@@ -10,24 +10,24 @@ public class App {
         String [] nome = new String [num];
         double [] nota1 = new double [num];
         double [] nota2 = new double [num];
-        double [] media = new double [num];
+        double media = 0.0;
+        
 
         for (int i = 0; i < num; i++){
             System.out.printf("Digite nome, primeira e segunda nota do %d o aluno: ", i + 1);
+            System.out.println("");
             nome[i] = sc.next();
-            nota1[i] = sc.nextInt();
-            nota2[i] = sc.nextInt(); 
+            nota1[i] = sc.nextDouble();
+            nota2[i] = sc.nextDouble(); 
         }
-        double maior = media[0];
-        int posicao = 0;
+        
 
-        System.out.printf("Alunos aprovados: ");  
+        System.out.printf("Alunos aprovados: \n");  
         for (int i = 0; i < num; i++ ){
-             media [i] = nota1[i] + nota2[i] / 2;
-             if (media[i] > maior){
-                maior = media[i];
-                posicao = i;
-                System.out.printf(nome[i]);   
+             media = nota1[i] + nota2[i] / 2;
+             if (media >=  6 ){
+                
+                System.out.println(nome[i]);   
              }
         }
         
