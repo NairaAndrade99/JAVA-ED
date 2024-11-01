@@ -1,0 +1,1 @@
+## **_Comportamentos de memórias, arrays, listas_** 
